@@ -1,11 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Abcd from '_assets/fonts/Abcd'
 
-export default function App() {
+export default function Abcd() : any {
   return (
-    <Abcd/>
+    <View style={styles.container}>
+      <Text>WORKING!!</Text>
+    </View>
   );
 }
 
